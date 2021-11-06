@@ -1,0 +1,38 @@
+.WeatherInfo {
+    width: 94%;
+    margin: auto;
+    position: relative;
+    top: 1em;
+    border: 1px solid #ccc;
+    margin-top: 1em;
+    &-alert {
+        background: red;
+        color: white;
+        width: 60%;
+        margin: auto;
+        border-radius: 5px;
+
+        &__paragraph {
+            padding: .3em;
+            text-align: center;
+        }
+    }
+
+    &-text {
+        text-align: center;
+    }
+
+    &-card {
+        margin: .5em;
+        border: 1px solid $gray-color;
+        padding: .5em;
+        position: relative;
+        top: 1em;
+
+        &__data {
+            border-bottom: 1px solid $gray-color;
+            padding-bottom: .3em;
+            padding-left: 1em;
+        }
+    }
+}

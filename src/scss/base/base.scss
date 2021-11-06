@@ -1,0 +1,39 @@
+body {
+    // height: 100vh;
+    overflow-x: hidden;
+    background: $background-color-dark;
+}
+
+ul {
+    @include reset-list;
+}
+
+*::selection {
+    background-color: $primary-color;
+    color: $text-color
+}
+
+.content {
+    max-width: 1000px;
+    margin: auto;
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.app {
+    max-width: 360px;
+    margin: auto;
+}
+
+#root {
+    display: flex;
+    height: 100vh;
+}
+
+p {
+    color: white;
+}

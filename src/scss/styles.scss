@@ -1,0 +1,14 @@
+//Config
+@import "./config/colors";
+@import "./config/fonts";
+//Mixins
+@import "./mixins/breakpoints";
+@import "./mixins/resets";
+//Base
+@import "./base/normalize";
+@import "./base/base";
+//Components
+@import "./components/WeatherForm";
+@import "./components/WeatherInfo";
+@import "./components/header";
+@import "./components/footer";

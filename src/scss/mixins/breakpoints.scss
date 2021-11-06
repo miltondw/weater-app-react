@@ -1,0 +1,36 @@
+$mobil:390px;
+$tablet:600px;
+$laptop:1024px;
+$desktop:1400px;
+$hightMovil:730px;
+$heightLaptop:1120px;
+@mixin mobil {
+    @media screen and (min-width:$mobil) {
+        @content;
+    }
+}
+@mixin hightMovil {
+    @media screen and (min-height:$hightMovil) {
+        @content;
+    }
+}
+@mixin heightLaptop {
+    @media screen and (min-height:$heightLaptop) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media screen and (min-width:$tablet) {
+        @content;
+    }
+}
+@mixin laptop {
+    @media screen and (min-width:$laptop) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media screen and (min-width:$desktop) {
+        @content;
+    }
+}

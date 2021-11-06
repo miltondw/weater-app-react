@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    background: #010101;
+    color: #ffff;
+    height: 4.5em;
+
+    .logo {
+        width: 90px;
+        height: 70px;
+        position: relative;
+        top: 8px;
+    }
+}
